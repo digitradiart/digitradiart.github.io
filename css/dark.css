@@ -1,0 +1,16 @@
+nav,
+.jumbotron .btn {
+    background-color: cadetblue;
+}
+
+.card-body,
+body,
+.accordion-item,
+footer {
+    color: #F0E3E3;
+    background-image: linear-gradient(to bottom right, #433751, #2F576E, #748B9C);
+}
+
+nav li a {
+    color: #F0E3E3;
+}

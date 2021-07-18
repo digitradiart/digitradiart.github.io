@@ -12,7 +12,7 @@ body {
 
 .jumbotron {
     min-height: 100vh;
-    background: rgb(136, 225, 233) url('/assets/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg') no-repeat fixed center;
+    background: url('/assets/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg') no-repeat fixed center;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -21,9 +21,14 @@ body {
     text-decoration: none;
 }
 
+.jumbotron .btn {
+    margin-top: 10%;
+}
+
 section {
     min-height: 100vh;
     padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #svg-top {
@@ -39,10 +44,6 @@ section {
     position: absolute;
 }
 
-.btn {
-    background-color: rgb(152, 226, 201);
-}
-
 #certificate,
 #project {
     z-index: 10;
@@ -51,4 +52,17 @@ section {
 
 .card {
     margin: 20px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+#btn-toggle {
+    cursor: pointer;
 }
