@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+    min-height: 100vh;
+    background: rgb(136, 225, 233) url('/assets/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg') no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.jumbotron a {
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 4rem;
+}
+
+#svg-top {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+#svg-bottom {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.btn {
+    background-color: rgb(152, 226, 201);
+}
+
+#certificate,
+#project {
+    z-index: 10;
+    padding-top: 15%;
+}
+
+.card {
+    margin: 20px;
+}
