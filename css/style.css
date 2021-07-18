@@ -13,7 +13,8 @@ body {
 
 .jumbotron {
     min-height: 100vh;
-    background: url('/assets/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg') no-repeat fixed center;
+    background: url('https://images.unsplash.com/photo-1489183988443-b37b7e119ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1352&q=80') no-repeat fixed center;
+    /* background: url('/assets/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg') no-repeat fixed center; */
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -44,10 +45,12 @@ section {
     position: absolute;
 }
 
+#about,
 #certificate,
-#project {
+#projects {
     z-index: 10;
     padding-top: 15%;
+    margin-top: 15%;
 }
 
 .card {
