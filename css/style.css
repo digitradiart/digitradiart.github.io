@@ -28,8 +28,6 @@ body {
 
 section {
     min-height: 100vh;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
 }
 
 #svg-top {
@@ -66,4 +64,14 @@ section {
 
 #btn-toggle {
     cursor: pointer;
+    color: #F0E3E3;
+}
+
+.btn {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
