@@ -76,3 +76,14 @@ a {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 700px) {
+    body {
+        margin: 0;
+    }
+    section,
+    .footer {
+        margin: 0;
+        padding: 10px;
+    }
+}
