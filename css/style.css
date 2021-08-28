@@ -46,7 +46,6 @@ section {
 }
 
 #about,
-#certificate,
 #projects {
     z-index: 10;
     padding-top: 15%;
@@ -78,4 +77,9 @@ section {
 a {
     text-decoration: none;
     color: white;
+}
+
+.certificate>button {
+    width: 100%;
+    margin: 10px auto;
 }
