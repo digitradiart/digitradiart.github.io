@@ -10,3 +10,7 @@ footer {
     color: #4C4C6D;
     background-image: linear-gradient(to bottom right, #68B0AB, #8FC0A9, #C8D5B9);
 }
+
+.bi:hover {
+    color: #4C4C6D;
+}
