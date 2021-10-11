@@ -79,7 +79,16 @@ a {
     color: white;
 }
 
-.certificate>button {
+.certificate-item>button {
     width: 100%;
     margin: 10px auto;
+}
+
+
+/* PHONE DISPLAY */
+
+@media only screen and (max-width: 600px) {
+    a.typewrite {
+        font-size: 1.5em;
+    }
 }
