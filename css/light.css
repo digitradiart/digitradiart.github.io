@@ -7,10 +7,10 @@ nav,
 body,
 .accordion-item,
 footer {
-    color: #4C4C6D;
-    background-image: linear-gradient(to bottom right, #68B0AB, #8FC0A9, #C8D5B9);
+    color: #40405c;
+    background-image: linear-gradient(to bottom right, #94ccc8, #a6c9b8, #d9e2ce);
 }
 
 .bi:hover {
-    color: #4C4C6D;
+    color: #40405c;
 }

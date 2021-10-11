@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .jumbotron {
@@ -96,7 +97,10 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5px;
+}
+
+.social-media .item {
+    margin: 10px;
 }
 
 .modal-footer a {
