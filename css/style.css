@@ -34,8 +34,7 @@ body {
 
 #certificate {
     min-height: 100vh;
-    background: url('/assets/pattern.png') repeat fixed;
-    background-blend-mode: darken;
+    /* background: url('/assets/pattern.png') repeat fixed; */
 }
 
 #svg-top {
@@ -118,5 +117,9 @@ a {
 @media only screen and (max-width: 600px) {
     a.typewrite {
         font-size: 1.5em;
+    }
+
+    .jumbotron {
+        padding-top: 100px;
     }
 }
