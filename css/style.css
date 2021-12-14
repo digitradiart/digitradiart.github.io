@@ -126,6 +126,16 @@ a {
     }
 
     .page {
-        padding: 40px;
+        padding: 65px;
+    }
+
+    #projects {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .stars {
+        transform: scale(2.5);
     }
 }
