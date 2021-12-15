@@ -3,10 +3,8 @@ nav,
     background-color: rgb(78, 131, 133);
 }
 
-.card-body,
 body,
-.accordion-item,
-footer {
+.accordion-item {
     color: #40405c;
     background-image: linear-gradient(to bottom right, #94ccc8, #a6c9b8, #d9e2ce);
 }

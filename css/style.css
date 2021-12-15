@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -35,36 +36,6 @@ body {
     padding-top: 10%;
 }
 
-#certificate {
-    min-height: 100vh;
-}
-
-#svg-top {
-    left: 0;
-    bottom: 0;
-    position: absolute;
-}
-
-#svg-bottom {
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-}
-
-.card {
-    margin: 20px;
-}
-
-.footer {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 65px;
-}
-
 #btn-toggle {
     cursor: pointer;
     color: #F0E3E3;
@@ -79,10 +50,6 @@ a {
     color: white;
 }
 
-.certificate-item>button {
-    width: 100%;
-    margin: 10px auto;
-}
 
 .bi {
     font-size: 1.3rem;
@@ -109,9 +76,6 @@ a {
     margin: 10px;
 }
 
-.modal-footer a {
-    color: white;
-}
 
 
 /* PHONE DISPLAY */
@@ -124,16 +88,6 @@ a {
     .jumbotron {
         padding-top: 100px;
     }
-
-    .page {
-        padding: 65px;
-    }
-
-    #projects {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
 
     .stars {
         transform: scale(2.5);
