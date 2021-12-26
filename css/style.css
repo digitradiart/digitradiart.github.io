@@ -13,7 +13,6 @@ body {
 }
 
 .jumbotron {
-    min-height: 100vh;
     background: url('https://images.unsplash.com/photo-1489183988443-b37b7e119ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1352&q=80') no-repeat fixed center;
     background-size: cover;
     background-blend-mode: darken;
@@ -31,7 +30,8 @@ body {
 }
 
 .page {
-    padding-top: 10%;
+    padding-top: 8%;
+    min-height: 100vh;
 }
 
 #btn-toggle {
@@ -77,8 +77,7 @@ a {
 
 
 /* PHONE DISPLAY */
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     a.typewrite {
         font-size: 1.5em;
     }
@@ -91,5 +90,7 @@ a {
         transform: scale(2.5);
     }
 
-
+    .page {
+        padding-top: 100px;
+    }
 }

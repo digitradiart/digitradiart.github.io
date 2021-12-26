@@ -12,13 +12,12 @@
     <link href="css/light.css" rel="stylesheet" id="theme-link">
     <link href="css/stars.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>ayuagst</title>
 </head>
 
 <body>
     <!-- JUMBOTRON START-->
-    <section class="jumbotron text-center" style="color: white;" id="jumbotron">
+    <section class="jumbotron text-center page" style="color: white;" id="jumbotron">
         <div class="stars">  
             <div class="starWrap starProject">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 599.456 593.71" enable-background="new 0 0 599.456 593.71" xml:space="preserve" id="stars">
@@ -440,16 +439,15 @@
             </div>
         </div>
         <!-- Stars -->
-        <img src="assets/ayu_vector_arabic_white.png" alt="avatar" width="90" style="padding: 8%;" />
+        <img src="/assets/ayu_vector_arabic_white.png" alt="avatar" width="100" style="padding: 8%;" />
         <h2 class="display-5">Hi, I am Ayu!</h2>
         <a href="" class="typewrite display-6" data-period="1000" data-type='["Self-taught Learner","Occasional Graphic Designer","Novice Coder"]' style="color: #fff;">
             <span class="wrap"></span>
         </a>
         <p class="lead">
-            <a class="btn btn-md" href="#about" role="button">more</a>
+            <a class="btn btn-md" href="#my-link" role="button">more</a>
         </p> 
     </section>
-    <!-- JUMBOTRON END-->
 
     <!-- NAVBAR START -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark text-center">
@@ -464,17 +462,106 @@
                         <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#my-link">Links</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#my-link">Links</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
                 <span><i class="bi bi-toggles md-48"id="btn-toggle"></i></span>
             </div>
         </div>
     </nav>
-    <!-- NAVBAR END -->
+
+    <!-- LINKS START -->
+    <section id="my-link" class="page container">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Useful Links</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <!-- link 1  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Learn to Code
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li><a href="http://github.com/" target="_blank">GitHub</a></li>
+                            <li><a href="http://github.com/" target="_blank">Sololearn</a></li>
+                            <li><a href="http://github.com/" target="_blank">freecodecamp</a></li>
+                            <li><a href="http://github.com/" target="_blank">Dicoding</a></li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- link 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li><a href="http://github.com/" target="_blank">GitHub</a></li>
+                            <li><a href="http://github.com/" target="_blank">Sololearn</a></li>
+                            <li><a href="http://github.com/" target="_blank">freecodecamp</a></li>
+                            <li><a href="http://github.com/" target="_blank">Dicoding</a></li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- link 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li><a href="http://github.com/" target="_blank">GitHub</a></li>
+                            <li><a href="http://github.com/" target="_blank">Sololearn</a></li>
+                            <li><a href="http://github.com/" target="_blank">freecodecamp</a></li>
+                            <li><a href="http://github.com/" target="_blank">Dicoding</a></li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- link 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ol>
+                            <li><a href="http://github.com/" target="_blank">GitHub</a></li>
+                            <li><a href="http://github.com/" target="_blank">Sololearn</a></li>
+                            <li><a href="http://github.com/" target="_blank">freecodecamp</a></li>
+                            <li><a href="http://github.com/" target="_blank">Dicoding</a></li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
 
     <!-- ABOUT START -->
     <section id="about" class="page">
@@ -487,95 +574,22 @@
             </div>
 
             <div class="row">
-                <div class="col">
-                    <p class="text-center container">Bismillah. Hello, World! I am <strong>Ayu Agustina</strong>. You can call me Ayu. I am Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius est qui porro corrupti, in harum atque aspernatur maxime expedita perferendis
-                        vel officia animi aperiam fuga earum eum numquam dolor vero!
-                    </p>
-                    <p>
-                        <div class="social-media">
-                            <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-github"></i></a></div>
-                            <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-linkedin"></i></a></div>
-                            <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-instagram"></i></a></div>
-                        </div>
-                    </p>
-                </div>
+                <p class="text-center container">Bismillah. Hello, World! I am <strong>Ayu Agustina</strong>. You can call me Ayu. I am Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius est qui porro corrupti, in harum atque aspernatur maxime expedita perferendis
+                    vel officia animi aperiam fuga earum eum numquam dolor vero!
+                </p>
+                <p>
+                    <div class="social-media">
+                        <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-github"></i></a></div>
+                        <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-linkedin"></i></a></div>
+                        <div class="item"><a href="https://github.com/digitradiart" target="_blank"><i class="bi bi-instagram"></i></a></div>
+                    </div>
+                </p>
             </div>
         </div>
     </section>
-    <!-- ABOUT END -->
-
-    <!-- LINKS START -->
-    <section class="link container page" id="my-link">
-        <div>
-            <div class="col text-center">
-                <h2>Useful Links</h2>
-            </div>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <ol>
-                            <li>
-                                <a href="https://github.com/digitradiart" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="https://github.com/digitradiart" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="https://github.com/digitradiart" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="https://github.com/digitradiart" target="_blank" rel="noopener noreferrer">Link</a></li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <ol>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Accordion Item #3
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <ol>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Link</a></li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- LINKS END -->
-
-    <footer class="footer">
+    
+    <!-- FOOTER -->
+    <footer class="footer container text-center">
         Build with <i class="bi bi-heart-fill"></i> by Ayu. All rights reserved &copy 2021.
     </footer>
 
