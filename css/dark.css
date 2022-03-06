@@ -1,14 +1,14 @@
 nav,
 .btn {
-    background-color: #4C4C6D;
+  background-color: rgb(49, 49, 49);
 }
 
 body,
 .accordion-item {
-    color: rgb(163, 209, 211);
-    background-image: linear-gradient(to bottom right, #433751, #2F576E, #748B9C);
+  color: rgb(243, 243, 243);
+  background-image: linear-gradient(to bottom right, #272727, #3f3f3f, #707070);
 }
 
 .bi:hover {
-    color: rgb(163, 209, 211);
+  color: rgb(243, 243, 243);
 }

@@ -1,96 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .jumbotron {
-    background: url('https://images.unsplash.com/photo-1489183988443-b37b7e119ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1352&q=80') no-repeat fixed center;
-    background-size: cover;
-    background-blend-mode: darken;
-    position: relative;
+  background: url('https://images.unsplash.com/photo-1534841090574-cba2d662b62e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat fixed center;
+  background-size: cover;
+  background-blend-mode: darken;
+  position: relative;
 }
 
 .jumbotron a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .jumbotron .btn {
-    margin-top: 10%;
-    position: relative;
-    z-index: 100;
+  margin-top: 10%;
+  position: relative;
+  z-index: 100;
 }
 
 .page {
-    padding-top: 100px;
-    min-height: 100vh;
+  padding-top: 100px;
+  min-height: 100vh;
 }
 
 #btn-toggle {
-    cursor: pointer;
-    color: #F0E3E3;
+  cursor: pointer;
+  color: #f0e3e3;
 }
 
 .btn {
-    color: white;
+  color: white;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-
 .bi {
-    font-size: 1.3rem;
-    cursor: pointer;
-    padding: 6px 8px;
-    border-radius: 8px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 8px;
 }
 
 .bi:active {
-    background: rgba( 255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-    backdrop-filter: blur( 5px);
-    -webkit-backdrop-filter: blur( 5px);
-    border: 1px solid rgba( 255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .social-media .item {
-    margin: 10px;
+  margin: 10px;
 }
-
-
 
 /* PHONE DISPLAY */
 @media only screen and (max-width: 720px) {
-    a.typewrite {
-        font-size: 1.5em;
-    }
+  a.typewrite {
+    font-size: 1.5em;
+  }
 
-    .jumbotron {
-        padding-top: 100px;
-    }
+  .jumbotron {
+    padding-top: 100px;
+  }
 
-    .stars {
-        transform: scale(2.5);
-    }
+  .stars {
+    transform: scale(2.5);
+  }
 
-    .page {
-        padding-top: 100px;
-    }
+  .page {
+    padding-top: 200px;
+  }
 }
